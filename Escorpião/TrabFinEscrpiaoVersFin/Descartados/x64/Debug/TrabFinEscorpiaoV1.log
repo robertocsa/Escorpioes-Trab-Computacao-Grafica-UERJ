@@ -1,0 +1,124 @@
+﻿  Principal.cpp
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\constantes.h(40): warning C4091: 'typedef ': ignorado à esquerda de 'nsConst::_Foco' quando nenhuma variável é declarada
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\constantes.h(45): warning C4091: 'typedef ': ignorado à esquerda de 'nsConst::_Pos' quando nenhuma variável é declarada
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\constantes.h(50): warning C4091: 'typedef ': ignorado à esquerda de 'nsConst::_Inclin' quando nenhuma variável é declarada
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\constantes.h(55): warning C4091: 'typedef ': ignorado à esquerda de 'nsConst::_AngVisao' quando nenhuma variável é declarada
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\constantes.h(60): warning C4091: 'typedef ': ignorado à esquerda de 'nsConst::_AtribCeu' quando nenhuma variável é declarada
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\constantes.h(69): warning C4091: 'typedef ': ignorado à esquerda de 'nsConst::_AtribCmra' quando nenhuma variável é declarada
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\constantes.h(74): warning C4091: 'typedef ': ignorado à esquerda de 'nsConst::_DimPata' quando nenhuma variável é declarada
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\constantes.h(78): warning C4091: 'typedef ': ignorado à esquerda de 'nsConst::_DimTelaPadrao' quando nenhuma variável é declarada
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\constantes.h(94): warning C4244: 'argumento': conversão de 'int' para 'GLfloat', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\constantes.h(95): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\constantes.h(103): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\constantes.h(111): warning C4244: 'argumento': conversão de 'float' para 'GLint', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\constantes.h(112): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\principal.h(20): warning C4305: 'inicializando': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\principal.h(21): warning C4305: 'inicializando': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\principal.h(33): warning C4305: 'inicializando': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\principal.h(34): warning C4305: 'inicializando': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\principal.h(35): warning C4305: 'inicializando': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\principal.h(48): warning C4091: 'typedef ': ignorado à esquerda de '_dbPos' quando nenhuma variável é declarada
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\principal.h(62): warning C4305: 'inicializando': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\principal.h(65): warning C4305: 'inicializando': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\principal.h(66): warning C4305: 'inicializando': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\principal.h(67): warning C4305: 'inicializando': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\principal.h(70): warning C4305: 'inicializando': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\cabecalhos\principal.h(71): warning C4305: 'inicializando': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(154): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(157): warning C4305: '+=': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(161): warning C4305: '-=': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(165): warning C4305: '+=': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(169): warning C4305: '-=': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(173): warning C4305: '+=': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(177): warning C4305: '-=': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(181): warning C4305: '+=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(185): warning C4305: '-=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(197): warning C4305: '-=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(201): warning C4305: '+=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(205): warning C4305: '-=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(209): warning C4305: '+=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(312): warning C4305: '-=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(316): warning C4305: '+=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(483): warning C4305: '+=': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(487): warning C4305: '-=': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(628): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(629): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(701): warning C4244: 'argumento': conversão de 'double' para 'GLint', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(704): warning C4244: 'argumento': conversão de 'double' para 'GLint', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(715): warning C4244: 'argumento': conversão de 'double' para 'GLint', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(719): warning C4244: 'argumento': conversão de 'double' para 'GLint', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(729): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(751): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(782): warning C4305: 'argumento': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(807): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(809): warning C4305: 'argumento': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(814): warning C4305: 'argumento': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(821): warning C4305: 'argumento': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(853): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(879): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(896): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(898): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(901): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(904): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(905): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(907): warning C4244: 'argumento': conversão de 'double' para 'float', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(908): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(911): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(912): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(913): warning C4244: 'argumento': conversão de 'double' para 'float', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(926): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(928): warning C4305: 'argumento': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(966): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(967): warning C4305: 'argumento': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(968): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(969): warning C4305: 'argumento': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(976): warning C4305: 'argumento': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(977): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(983): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(984): warning C4305: 'argumento': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(986): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(987): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(988): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(989): warning C4305: 'argumento': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(991): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(992): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(993): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(994): warning C4305: 'argumento': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(996): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(997): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(998): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(999): warning C4305: 'argumento': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1001): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1002): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1003): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1004): warning C4305: 'argumento': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1006): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1008): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1009): warning C4305: 'argumento': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1014): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1034): warning C4244: 'argumento': conversão de 'double' para 'int', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1040): warning C4244: 'argumento': conversão de 'double' para 'int', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1046): warning C4244: 'argumento': conversão de 'double' para 'int', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1230): warning C4305: '=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1231): warning C4305: '=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1246): warning C4305: '=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1247): warning C4305: '=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1315): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1320): warning C4244: 'argumento': conversão de 'GLfloat' para 'GLint', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1333): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1338): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1383): warning C4244: 'argumento': conversão de 'GLfloat' para 'GLint', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1389): warning C4244: 'argumento': conversão de 'GLfloat' para 'GLint', possível perda de dados
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1538): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1542): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1564): warning C4305: 'argumento': truncamento de 'double' para 'float'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1576): warning C4305: '+=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1577): warning C4305: '+=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1584): warning C4305: '-=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1585): warning C4305: '-=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1595): warning C4305: '+=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1617): warning C4305: '-=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1661): warning C4305: '+=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1669): warning C4305: '-=': truncamento de 'double' para 'GLfloat'
+e:\documentos\estudo\uerj_computacao\materias\per atual\computacaografica\vs\trabfinescorpiaov1\fontes\principal.cpp(1706): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+  TrabFinEscorpiaoV1.vcxproj -> E:\Documentos\Estudo\UERJ_Computacao\Materias\Per Atual\ComputacaoGrafica\VS\TrabFinEscorpiaoV1\x64\Debug\TrabFinEscorpiaoV1.exe

@@ -1,0 +1,1 @@
+A pasta de recursos deve ficar no mesmo nível do arquivo executável, para que as texturas possam ser carregadas.

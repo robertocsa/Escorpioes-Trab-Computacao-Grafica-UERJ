@@ -1,0 +1,313 @@
+case ESC: //tecla escape
+		exit(0);		
+	case TAB: //Tecla TAB (realiza a troca de tipos de visao/cameras
+		cout << "TAB" << endl;
+		trocaCameraAtiva();
+		redimVisao(dimTelaPadrao.x, dimTelaPadrao.y);
+		break;
+	case 'A': //Debug (foi utilizada para movimentação da bolinha de posicionamento dos elementos da imagem)
+		dbPos.x += .05;
+		cout << dbPos.x << endl;
+		break;
+	case 'a': //Debug (foi utilizada para movimentação da bolinha de posicionamento dos elementos da imagem)
+		dbPos.x -= .05;
+		cout << dbPos.x << endl;
+		break;
+	case 'D': //Debug (foi utilizada para movimentação da bolinha de posicionamento dos elementos da imagem)
+		dbPos.y += .05;
+		cout << dbPos.y << endl;
+		break;
+	case 'd': //Debug (foi utilizada para movimentação da bolinha de posicionamento dos elementos da imagem)
+		dbPos.y -= .05;
+		cout << dbPos.y << endl;
+		break;
+	case 'B': //Debug (foi utilizada para movimentação da bolinha de posicionamento dos elementos da imagem)
+		dbPos.z += .05;
+		cout << dbPos.z << endl;
+		break;
+	case 'b': //Debug (foi utilizada para movimentação da bolinha de posicionamento dos elementos da imagem)
+		dbPos.z -= .05;
+		cout << dbPos.z << endl;
+		break;		
+	case 'C': //Aumenta o ângulo da curvatura do corpo
+		if (angCurvaCorpo < 10.2) angCurvaCorpo += .2;
+		cout << angCurvaCorpo << endl;
+		break;
+	case 'c': //Diminui o ângulo da curvatura do corpo
+		if (angCurvaCorpo > -5.2) angCurvaCorpo -= .2;
+		cout << angCurvaCorpo << endl;
+		break;		
+	case 'E': //Aumenta o tamanho da pata
+		if(dimPata.larg < 0.15f) dimPata.larg += 0.001f;
+		cout << "Largura X da pata: " << dimPata.larg << endl;
+		break;
+	case 'e': //Reduz o tamanho da pata
+		if (dimPata.larg > 0.025f)dimPata.larg -= 0.001f;
+		cout << "Largura X da pata: " << dimPata.larg << endl;
+		break;
+	case 'g': //Reduz tamanho da garra
+		if (tamGarra > 0.1f) tamGarra -= .01;
+		cout << tamGarra << endl;
+		break;
+	case 'G': //Aumenta tamanho da garra
+		if (tamGarra < 0.2f) tamGarra += .01;
+		cout << tamGarra << endl;
+		break;
+	case 'H': //Aumenta o ângulo da curva horizontal da cauda
+		if (angHorzCauda > -25.0) angHorzCauda -= .9;
+		cout << angHorzCauda << endl;
+		break;
+	case 'h': //Diminui o ângulo da curva horizontal da cauda
+		if (angHorzCauda < 25.0) angHorzCauda += .9;
+		cout << angHorzCauda << endl;
+		break;
+	case 'i': //Liga e desliga o desenho do escorpião
+		desenhaEscorpiaoLig ? desenhaEscorpiaoLig = false : desenhaEscorpiaoLig = true;
+		cout << "Desenho do escorpião ligado? "<< desenhaEscorpiaoLig << endl;
+		break;
+	case 'l': //Muda lado de visão no eixo Z
+		if (atribCamera.angVisao.z == 0) {
+			atribCamera.angVisao.z = 90;
+		}
+		else {
+			if (atribCamera.angVisao.z == 90) {
+				atribCamera.angVisao.z = 180;
+			}
+			else {
+				if (atribCamera.angVisao.z == 180) {
+					atribCamera.angVisao.z = 270;
+				}
+				else {
+					if (atribCamera.angVisao.z == 270) {
+						atribCamera.angVisao.z = 0;
+					}
+					else {
+						atribCamera.angVisao.z = 0;
+					}
+				}
+			}
+		}
+		break;
+	case 'm': //Muda lado de visão no eixo X
+		if (atribCamera.angVisao.x == 0) {
+			atribCamera.angVisao.x = 90;
+		}
+		else {
+			if (atribCamera.angVisao.x == 90) {
+				atribCamera.angVisao.x = 180;
+			}
+			else {
+				if (atribCamera.angVisao.x == 180) {
+					atribCamera.angVisao.x = 270;
+				}
+				else {
+					if (atribCamera.angVisao.x == 270) {
+						atribCamera.angVisao.x = 0;
+					}
+					else {
+						atribCamera.angVisao.x = 0;
+					}
+				}
+			}
+		}
+		break;
+	case 'n': //Desliga a textura
+		texturaLigada ? texturaLigada = false: texturaLigada =true;
+		break;
+	case 'o': //Liga e desliga o desenho do ceu
+		desenhaCeuLig ? desenhaCeuLig = false : desenhaCeuLig = true;
+		cout << desenhaCeuLig << endl;
+		break;
+	case 'p': //Liga e desliga o desenho do piso
+		desenhaPisoLig? desenhaPisoLig = false: desenhaPisoLig=true;
+		cout << desenhaPisoLig << endl;
+		break;	
+	case 'Q': //Aumenta o tamanho da pata
+		if (dimPata.compr < 0.40f) {
+			dimPata.compr += 0.001f;
+			altEscorpiao += 0.001f;
+		}
+		cout << "Comprimento da pata: "<< dimPata.compr << endl;
+		break;
+	case 'q': //Reduz o tamanho da pata
+		if (dimPata.compr > 0.30f) {
+			dimPata.compr -= 0.001f;
+			altEscorpiao -= 0.001f;
+		}
+		cout << "Comprimento da pata: " << dimPata.compr << endl;
+		break;
+	case 'r': //Variável de testes (para posicionamentos dos elementos de desenho)
+		vTeste1 += 0.16f;
+		cout << "Valor do parâmetro em teste (vTeste1): " << vTeste1 << endl;
+		break;
+	case 'R': //Variável de testes (para posicionamentos dos elementos de desenho)
+		vTeste1 -= 0.16f;
+		cout << "Valor do parâmetro em teste (vTeste1): " << vTeste1 << endl;
+		break;
+	case 's': //Liga ou desliga setas de orientação
+		ligaSetasOrient? ligaSetasOrient=false: ligaSetasOrient=true;
+		cout << "Setas ligadas? = " << ligaSetasOrient << endl;
+		break;
+	case 't': //Variável de testes (para posicionamentos dos elementos de desenho)
+		vTeste2 += 0.16f;
+		cout << "Valor do parâmetro em teste: (vTeste2) " << vTeste2 << endl;
+		break;
+	case 'T': //Variável de testes (para posicionamentos dos elementos de desenho)
+		vTeste2 -= 0.16f;
+		cout << "Valor do parâmetro em teste: (vTeste2) " << vTeste2 << endl;
+		break;
+	case 'u': //Liga ou desliga fundo branco
+		fundoBrancoSim ? fundoBrancoSim = false : fundoBrancoSim = true;
+		cout << "Fundo branco? = " << fundoBrancoSim << endl;
+		break;
+	case 'V': //Aumenta o ângulo da curva vertical da cauda
+		if (angVertCauda > -80.0) angVertCauda -= .9;
+		cout << angVertCauda << endl;
+		break;
+	case 'v': //Diminui o ângulo da curva vertical da cauda
+		if (angVertCauda < -10.0) angVertCauda += .9;
+		cout << angVertCauda << endl;
+		break;
+	case 'W': //Aumenta o tamanho da pata
+		if (dimPata.alt < 0.07f) dimPata.alt += 0.001f;
+		cout << "Altura Z da pata: " << dimPata.alt << endl;
+		break;
+	case 'w': //Reduz o tamanho da pata
+		if (dimPata.alt > 0.03f) dimPata.alt -= 0.001f;
+		cout << "Altura Z da pata: " << dimPata.alt << endl;
+		break;
+	case 'x': //Angulo x do Ceu
+		atribCeu.x -= 10.0;
+		cout << "Angulo x do Ceu: " << atribCeu.x << endl;
+		break;
+	case 'X': //Angulo x do Ceu
+		atribCeu.x += 10.0;
+		cout << "Angulo x do Ceu: " << atribCeu.x << endl;
+		break;
+	case 'y': //Variável de testes (para posicionamentos dos elementos de desenho)
+		vTeste3 += 0.16f;
+		cout << "Valor do parâmetro em teste (vTeste3): " << vTeste3 << endl;
+		break;
+	case 'Y': //Variável de testes (para posicionamentos dos elementos de desenho)
+		vTeste3 -= 0.16f;
+		cout << "Valor do parâmetro em teste (vTeste3): " << vTeste3 << endl;
+		break;
+	case 'z': //Angulo z do Ceu
+		atribCeu.z -= 10.0;
+		cout << "Angulo z do Ceu: " << atribCeu.z << endl;
+		break;
+	case 'Z': //Angulo z do Ceu
+		atribCeu.z += 10.0;
+		cout << "Angulo z do Ceu: " << atribCeu.z << endl;
+		break;
+	case ENTER: //Reduz o ângulo de abertura da garra
+		if (angAbertGarra > 10) angAbertGarra -= 3;
+		cout << "Angulo de abertura da garra: " << angAbertGarra << endl;
+		break;
+	case '0': //Aumenta o ângulo de abertura da garra
+		if (angAbertGarra < 35) angAbertGarra += 3;
+		cout << "Angulo de abertura da garra: " << angAbertGarra << endl;
+		break;
+	case '1': //Reduz o ângulo de apoio da garra
+		if (angApoioGarra > -180) angApoioGarra -= 3;
+		cout << "Angulo de apoio da garra: " << angApoioGarra << endl;
+		break;	
+	case '2': //Reduz o ângulo de apoio da Pata em Y
+		if (angApoioPataY > -15.00f) {
+			angApoioPataY -= 1;
+			altEscorpiao -= 0.0095f;
+		}
+		cout << "Angulo de apoio da pata em Y: " << angApoioPataY << endl;
+		break;
+	case '3': //Angulo de rotação da garra
+		angRotGarra -= 3;
+		if (angRotGarra <= 0) angRotGarra = 360;
+		cout << "Angulo de rotação da garra: " << angRotGarra << endl;
+		break;	
+	case '4': //Reduz o ângulo de apoio da Pata em Z
+		if (angApoioPataZ >= -60) angApoioPataZ -= 3;
+		cout << "Angulo de apoio da pata em Z: " << angApoioPataZ << endl;
+		break;
+	case '5': //Aumenta o ângulo do meio da garra		
+		if (angMeioGarra < 50.0f) angMeioGarra += 1.5;
+		cout << angMeioGarra << endl;
+		break;		
+	case '6': //Aumenta o ângulo de apoio da Pata em Z
+		if (angApoioPataZ <= 70) angApoioPataZ += 3;
+		cout << "Angulo de apoio da pata em Z: " << angApoioPataZ << endl;
+		break;
+	case '7': //Aumenta o ângulo de apoio da garra
+		if (angApoioGarra < 180) angApoioGarra += 3;
+		cout << "Angulo de apoio da garra: " << angApoioGarra << endl;
+		break;
+	case '8': //Aumenta o ângulo de apoio da Pata em Y
+		if (angApoioPataY < 20.00f) {
+			angApoioPataY += 1;
+			altEscorpiao += 0.0095f;
+		}
+		cout << "Angulo de apoio da pata em Y: " << angApoioPataY << endl;
+		break;
+	case '9': //Angulo de rotação da garra
+		angRotGarra += 3;
+		if (angRotGarra >= 360) angRotGarra = 0;
+		cout << "Angulo de rotação da garra: " << angRotGarra << endl;
+		break;
+	case '>':
+		//Reduz o valor de x da inclinação do olhar
+		glMatrixMode(GL_PROJECTION);
+		angProjecao.x -= 0.5;
+		if (angProjecao.x > -4.0) glRotatef(-0.5, 1.0, 0.0, 0.0);
+		//atribCamera.foco.x -= .9;
+		break;
+	case '<':		
+		//Aumenta o valor de x da inclinação do olhar
+		glMatrixMode(GL_PROJECTION);
+		angProjecao.x += 0.5;
+		if (angProjecao.x < 50.0) glRotatef(0.5, 1.0, 0.0, 0.0);
+		//atribCamera.foco.x += .9;
+		break;
+	case ',':
+		//Reduz o valor de y da inclinação do olhar
+		glMatrixMode(GL_PROJECTION);
+		angProjecao.y -= .5;
+		if (angProjecao.y > -90.0) glRotatef(-0.5, 0.0, 1.0, 0.0);
+		break;
+	case '.':
+		//Aumenta o valor de y da inclinação do olhar
+		glMatrixMode(GL_PROJECTION);
+		angProjecao.y += .5;
+		if (angProjecao.y < 90.0) glRotatef(0.5, 0.0, 1.0, 0.0);
+		break;
+	case '+': 
+		if (teclasFuncao == GLUT_ACTIVE_CTRL) {
+			//Aumenta angulo de visao do eixo Z
+			if (atribCamera.angVisao.z < 120) atribCamera.angVisao.z += 3;
+		}
+		else {
+			//Aumenta angulo de visao do eixo X
+			if (atribCamera.angVisao.x < 120) atribCamera.angVisao.x += 3;
+		}
+		break;
+	case '-': 
+		if (teclasFuncao == GLUT_ACTIVE_CTRL) {
+			//Reduz angulo de visao do eixo Z
+			if (atribCamera.angVisao.z > 0) atribCamera.angVisao.z -= 3;
+		}
+		else {
+			//Aumenta angulo de visao do eixo X
+			if (atribCamera.angVisao.x > 0) atribCamera.angVisao.x -= 3;
+		}
+		break;
+	case '/':
+		ligaEsferaDebug ? ligaEsferaDebug = false : ligaEsferaDebug = true;
+		cout << "Debug ligado? " << ligaEsferaDebug << endl;
+		break;
+	case ']':
+		ligaWireFrame ? ligaWireFrame = false : ligaWireFrame = true;
+		cout << "Wireframe ligado? " << ligaWireFrame << endl;
+		break;
+	case '\\':
+		semMovimentosAutomaticos ? semMovimentosAutomaticos = false : semMovimentosAutomaticos = true;
+		cout << "Modo automático ligado? " << semMovimentosAutomaticos << endl;
+		break;
+	default:
